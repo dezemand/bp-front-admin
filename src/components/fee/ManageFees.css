@@ -1,0 +1,9 @@
+.noResults {
+    text-align: center;
+    margin-top: 20px;
+    color: #545454;
+}
+
+.noResults svg {
+    margin-right: 4px;
+}

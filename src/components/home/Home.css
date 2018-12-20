@@ -1,0 +1,65 @@
+.Home {
+    color: #ecf0f1;
+}
+
+.Home header {
+    height: 10%;
+    background: #2ecc71;
+    padding: 1px;
+}
+
+.Home header h1 {
+    text-align: center;
+}
+
+.BigButton {
+    height: 50%;
+    width: 100%;
+    display: block;
+    padding: 1px;
+}
+
+.BigButton.type1 {
+    background: #e67e22;
+}
+
+.BigButton.type2 {
+    background: #3498db;
+}
+
+.BigButton .icon {
+    text-align: center;
+    font-size: 600%;
+    padding-top: 18%;
+}
+
+.BigButton p {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 0;
+    color: #ecf0f1;
+    font-family: 'Sigmar One', cursive;
+}
+
+.BigButton svg {
+    color: #ecf0f1;
+}
+
+@media only screen and (min-width: 768px) {
+    .BigButton:before {
+        content: "";
+        display: inline-block;
+        height: 10%;
+        vertical-align: middle;
+        font-size: 0;
+    }
+
+    .BigButton {
+        width: 50%;
+        height: 100%;
+        padding: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+}

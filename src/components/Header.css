@@ -1,0 +1,27 @@
+header {
+    padding: 8px 5px 6px 0;
+    font-size: 18px;
+    background: #efeff4;
+}
+
+header a {
+    color: black;
+    padding-right: 20px;
+}
+
+header svg {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+header .homeButton {
+    padding: 8px 14px;
+    margin-right: 14px;
+    color: #009dff;
+    background: none;
+    border: none;
+}
+
+header .headerTitle {
+    font-weight: 500;
+}
